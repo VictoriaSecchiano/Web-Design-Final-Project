@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #CCC;
+	margin: 0px;
+	padding: 0px;
+}
+.navigation {
+	background-color: #FFF;
+	margin: 0px;
+	padding: 15px;
+	border: thin solid #000;
+}
+.wrapper {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navigation td {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.navigation a {
+	color: #00512D;
+	text-decoration: none;
+}
