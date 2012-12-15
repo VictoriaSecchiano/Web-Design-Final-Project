@@ -8,23 +8,85 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+<!-- TemplateParam name="navigation-home" type="boolean" value="false" -->
+<!-- TemplateParam name="navigation-about" type="boolean" value="false" -->
+<!-- TemplateParam name="navigation-services" type="boolean" value="false" -->
+<!-- TemplateParam name="navigation-portfolio" type="boolean" value="false" -->
+<!-- TemplateParam name="navigation-gallery" type="boolean" value="false" -->
+<!-- TemplateParam name="navigation-contact" type="boolean" value="false" -->
 </head>
 
 	<body>
 		<div class="wrapper">
-        	<div class="navigation"><!-- TemplateBeginEditable name="Navigation" --><!-- TemplateEndEditable -->
-                <table>
-                  <tr>
-                  	<td>Home</td>
-                    <td>About Us</td>
-                    <td>Services</td>
-                    <td>Porfolio</td>
-                    <td>Project Gallery</td>
-                    <td>Contact Us</td>
-                  </tr>
-                </table>
-
-            </div>
+        	<div class="navigation">
+                     	 <p> <img src="../images/logo-190.jpg" width="126" height="129" alt="MVM Logo" /></p>
+           	  <!-- TemplateBeginIf cond="_document['navigation-home']" -->
+                     	 <table align="center">
+                     	   <tr>
+                     	     <td class="thispage"><a href="../index.html">Home</a></td>
+                     	     <td><a href="../about-us.html">About Us</a></td>
+                     	     <td><a href="../services.html">Services</a></td>
+                     	     <td><a href="../portfolio.html">Portfolio</a></td>
+                     	     <td><a href="../project-gallery.html">Project Gallery</a></td>
+                     	     <td><a href="../contact-us.html">Contact Us</a></td>
+                   	     </tr>
+                   	   </table>
+           	  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['navigation-about']" -->
+                     	 <table align="center">
+                     	   <tr>
+                     	     <td><a href="../index.html">Home</a></td>
+                     	     <td class="thispage"><a href="../about-us.html">About Us</a></td>
+                     	     <td><a href="../services.html">Services</a></td>
+                     	     <td><a href="../portfolio.html">Portfolio</a></td>
+                     	     <td><a href="../project-gallery.html">Project Gallery</a></td>
+                     	     <td><a href="../contact-us.html">Contact Us</a></td>
+                   	     </tr>
+       	      </table>
+                     	 <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['navigation-services']" -->
+                     	 <table align="center">
+                     	   <tr>
+                     	     <td><a href="../index.html">Home</a></td>
+                     	     <td><a href="../about-us.html">About Us</a></td>
+                     	     <td class="thispage"><a href="../services.html">Services</a></td>
+                     	     <td><a href="../portfolio.html">Portfolio</a></td>
+                     	     <td><a href="../project-gallery.html">Project Gallery</a></td>
+                     	     <td><a href="../contact-us.html">Contact Us</a></td>
+                   	     </tr>
+                   	   </table>
+                     	 <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['navigation-portfolio']" -->
+                     	 <table align="center">
+                     	   <tr>
+                     	     <td><a href="../index.html">Home</a></td>
+                     	     <td><a href="../about-us.html">About Us</a></td>
+                     	     <td><a href="../services.html">Services</a></td>
+                     	     <td class="thispage"><a href="../portfolio.html">Portfolio</a></td>
+                     	     <td><a href="../project-gallery.html">Project Gallery</a></td>
+                     	     <td><a href="../contact-us.html">Contact Us</a></td>
+                   	     </tr>
+                   	   </table>
+                     	 <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['navigation-gallery']" -->
+                     	 <table align="center">
+                     	   <tr>
+                     	     <td><a href="../index.html">Home</a></td>
+                     	     <td><a href="../about-us.html">About Us</a></td>
+                     	     <td><a href="../services.html">Services</a></td>
+                     	     <td><a href="../portfolio.html">Portfolio</a></td>
+                     	     <td class="thispage"><a href="../project-gallery.html">Project Gallery</a></td>
+                     	     <td><a href="../contact-us.html">Contact Us</a></td>
+                   	     </tr>
+                   	   </table>
+                     	 <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['navigation-contact']" -->
+                     	 <table align="center">
+                     	   <tr>
+                     	     <td><a href="../index.html">Home</a></td>
+                     	     <td><a href="../about-us.html">About Us</a></td>
+                     	     <td><a href="../services.html">Services</a></td>
+                     	     <td><a href="../portfolio.html">Portfolio</a></td>
+                     	     <td><a href="../project-gallery.html">Project Gallery</a></td>
+                     	     <td class="thispage"><a href="../contact-us.html">Contact Us</a></td>
+                   	     </tr>
+                   	   </table>
+                     	 <!-- TemplateEndIf --></div>
         	<div class="content"><!-- TemplateBeginEditable name="Content" --><!-- TemplateEndEditable --></div>
 		</div>
 	</body>
